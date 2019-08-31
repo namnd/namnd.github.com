@@ -77,6 +77,7 @@ $bar-height: 24px;
   margin: 0 auto 10px auto;
   line-height: $bar-height;
   font-size: 14px;
+  text-shadow: 1px 1px 2px #333;
   color: #fff;
   padding: 0 10px 0 10px;
   position: relative;
@@ -122,16 +123,6 @@ $bar-height: 24px;
 .bar-xs {
   display: none;
 }
-@media (max-width: 568px) {
-  .bar2,
-  .bar22,
-  .bar32 {
-    display: none;
-  }
-  .bar-xs {
-    display: inherit;
-  }
-}
 .bar3::after{
   max-width: 50%;
 }
@@ -164,4 +155,15 @@ $bar-height: 24px;
 }
 .bar41::after {
 	max-width: 50%;
+}
+
+@media (max-width: 568px) {
+  .bar2,
+  .bar22,
+  .bar32 {
+    display: none;
+  }
+  .bar-xs {
+    display: inherit;
+  }
 }
