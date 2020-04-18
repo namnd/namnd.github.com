@@ -6,9 +6,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            nam.nd
+title:            namnd.com
 tagline:          'Software Engineer'
-description:      'Passionate about coding<br />Enjoy solving problems<br />Love building things'
+description:      ''
 url:              https://namnd.github.io
 baseurl:          /
 
