@@ -1,18 +1,63 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Site settings
+title_left    : "Think"
+title_right   : "space" # default: ""
+description   : "Minimalist Jekyll theme for technical writing blog."
+keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url           : https://heiswayi.github.io/thinkspace # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
 
-# Permalinks
-permalink:        pretty
+google_analytics  : UA-XXXXX-XX
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
 
-# Setup
-title:            namnd
-tagline:          'Software Engineer'
-description:      ''
-url:              https://namnd.github.io
-baseurl:          /
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
 
-paginate:         5
+source      : ./
+destination : ./_site
 
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
 
-# Custom vars
+# Author settings
+author:
+  name     : "John Doe"
+
+plugins:
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude:
+  - "gulp"
+  - "node_modules"
+  - "bower"
+  - "bower_components"
+  - "config.rb"
+  - "src"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".rvmrc"
+  - ".rbenv-version"
+  - "package.json"
+  - "gulpfile.js"
+  - "README.md"
+  - "Rakefile"
+  - "changelog.md"
+  - "script"
+  - "vendor"
+  - "thinkspace.gemspec"

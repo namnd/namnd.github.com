@@ -1,27 +1,27 @@
 ---
-layout: page
-title: About me
+layout: default
+title: Home
 ---
 
-<img src="https://pbs.twimg.com/profile_images/1247506511598735368/I9EyZZVT_400x400.jpg" class="avatar" />
-<p class="message">
-I am working at <a href="https://dius.com.au" target="_blank">DiUS</a> as a Software Consultant since November 2019
-</p>
+{% include intro.html %}
 
-I am interested in software development practices that helps creating quality softwares and also makes coding fun
-<h3>Experiences</h3>
-<ul>
-    <li>
-        <b>2.5 years</b> at <a href="https://acer.org" target="_blank">Australian Council for Educational Research</a>
-        mainly focusing on improving software quality, such as increasing test coverage, refactoring legacy code, reducing time/space complexity, etc.</li>
-    <li>
-        <b>3 years</b> leading a development team of <a href="https://staffbooks.com" target="_blank">Staffbooks</a> - a SaaS platform for Roaster and Payroll management.
-    </li>
-    <li>
-        <b>3 years</b> working at <a href="https://citigo.com.vn" target="_blank">Citigo</a> as Software Developer.
-    </li>
-</ul>
-<h3>Education</h3>
-<ul>
-    <li>Master of Computer Sciene at <a href="https://latrobe.edu.au">La Trobe University</a> Melbourne, Australia</li>
-</ul>
+<section class="post-list">
+  <div class="container">
+    {% for post in site.posts %}
+      {% unless post.next %}
+        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+        {% endif %}
+      {% endunless %}
+      <article class="post-item">
+        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
+      </article>
+    {% endfor %}
+  </div>
+
+</section>
