@@ -25,8 +25,8 @@ Here is the link to my [vimrc](https://github.com/namnd/dotfiles-macos/blob/mast
 
 ### Clipy
 One of the most simple but very useful app I use all the time is [Clipy](https://clipy-app.com/){:target="_blank"}. 
-It's a Clipboard extension app that supports keeping track the history of your clipboard. 
-You can configure as many items as you want to keep in the history. I feel like this should be a built-in Mac OS utilities.
+It's a Clipboard extension that supports tracking the history of your clipboard. 
+You can configure as many items as you want to keep in the history. To be honest, I feel like this should be a built-in Mac OS utilities.
 
 The only missing (and frankly quite crucial) feature of this app is the ability to fuzzy search any record in the history. 
 If anyone knows such an app, please share with me.
@@ -41,4 +41,9 @@ In Mac OS, you can use shortcut `⌘ (command)` + `tab` to switch between apps, 
 
 Luckly, [Yabai](https://github.com/koekeishiya/yabai){:target="_blank"} comes to rescuse. Combining Yabai with [skhd](https://github.com/koekeishiya/skhd){:target="_blank"} (created by the same person), I can have a smooth workflow without touching the mouse.
 
-(TBC)
+Here is the link to my [dotfiles](https://github.com/namnd/dotfiles-macos), which includes config for Yabai and skhd
+
+My configuration is barely minimal, that allows me to split windows, switch between windows, focus a specific window (north/south, west/east), or even move the active window to another desktop (space).
+
+### Summary
+In this post, I have shared with you 3 apps that I think are most valuable to me. It has improved my workflow and productivity by miles. Hope you find it useful. Feel free to drop any questions or feedback.
