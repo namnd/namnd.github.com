@@ -1,0 +1,26 @@
+I"�<p>In this post, I will share with you what I think is the most important apps/tools a software engineer should have, in order to be productive.</p>
+
+<h3 id="vim">Vim</h3>
+<p>First and foremost important tool any programmer must have is code editor. I have used variety of the most popular IDEs/editors, such as <a href="https://www.jetbrains.com/idea/">IntelliJ IDEA</a>, <a href="https://www.eclipse.org/ide/">Eclipse</a>, <a href="https://netbeans.apache.org/">NetBeans</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a>, <a href="https://www.sublimetext.com/">Sublime Text</a> etc. I have to say none of them come close to Vim in terms of programmatically editting code. Vim is a programming language itself, meaning you can write your own (or use other’s) scripts/plugins to customize behaviour to fit your needs.</p>
+
+<p>Eventhough I’ve only been consistently using Vim (recently <a href="https://neovim.io/">NeoVim</a>) since 2019, I don’t think I will ever come back to any other IDEs, except for Xcode, or Android Studio if I have to build native mobile apps.</p>
+
+<h3 id="clipy">Clipy</h3>
+<p>One of the most simple but very useful app I use all the time is <a href="https://clipy-app.com/">Clipy</a>. 
+It’s a Clipboard extension app that support keeping track the history of your clipboard. 
+You can configure as many items as you want to keep in the history. 
+The only missing (and frankly quite crucial) feature is the ability to fuzzy search any record in the history. 
+If anyone knows such an app, please leave a comment below.
+Until then, if I manage some time, I might write an app myself.</p>
+
+<h3 id="tmux">Tmux</h3>
+<p>There are quite a few Terminal emulators out there that</p>
+
+<h3 id="clipy-1">Clipy</h3>
+<p>One of the most simple but very useful app I use all the time is <a href="https://clipy-app.com/">Clipy</a>. 
+It’s a Clipboard extension app that support keeping track the history of your clipboard. 
+You can configure as many items as you want to keep in the history. 
+The only missing (and frankly quite crucial) feature is the ability to fuzzy search any record in the history. 
+If anyone knows such an app, please leave a comment below.
+Until then, if I manage some time, I might write an app myself.</p>
+:ET
