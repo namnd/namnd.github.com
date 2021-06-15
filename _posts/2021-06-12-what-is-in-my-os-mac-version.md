@@ -10,7 +10,7 @@ In this post, I will share with you what I think is the most important apps/tool
 
 ### Vim
 First and foremost important tool any programmer must have is code editor.
-I have used variety of the most popular IDEs/editors, such as
+I have used a variety of the most popular IDEs/editors, such as
 [IntelliJ IDEA](https://www.jetbrains.com/idea/){:target="_blank"},
 [Eclipse](https://www.eclipse.org/ide/){:target="_blank"},
 [NetBeans](https://netbeans.apache.org/){:target="_blank"},
@@ -37,13 +37,13 @@ I am tending to not using the mouse while writing code, and while doing so, quit
 one window for code editor, one for the local web app, another one for database console, and maybe another web page that has the resource/reference that I am looking for my current implementation.
 That does not even include other productivity apps, such as slack, mail, calendar, etc.
 
-In Mac OS, you can use shortcut `⌘ (command)` + `tab` to switch between apps, you can also use some other shortcut like `⌘ (command)` + `m` to minimize current active app. However, it's not efficient enough for my workflow.
+In Mac OS, you can use shortcut `⌘ (command)` + `tab` to switch between apps, you can also use some other shortcut like `⌘` + `m` to minimize current active app. However, it's not efficient enough for my workflow.
 
-Luckly, [Yabai](https://github.com/koekeishiya/yabai){:target="_blank"} comes to rescuse. Combining Yabai with [skhd](https://github.com/koekeishiya/skhd){:target="_blank"} (created by the same person), I can have a smooth workflow without touching the mouse.
+Luckily, [Yabai](https://github.com/koekeishiya/yabai){:target="_blank"} comes to rescuse. Combining Yabai with [skhd](https://github.com/koekeishiya/skhd){:target="_blank"} (created by the same person), I can have a smooth workflow without touching the mouse.
 
 Here is the link to my [dotfiles](https://github.com/namnd/dotfiles-macos), which includes config for Yabai and skhd
 
-My configuration is barely minimal, that allows me to split windows, switch between windows, focus a specific window (north/south, west/east), or even move the active window to another desktop (space).
+My configuration is barely minimal, that allows me to mouselessly split windows, switch focusing between windows (north/south, west/east), or even move the active window to another desktop (space).
 
 ### Summary
 In this post, I have shared with you 3 apps that I think are most valuable to me. It has improved my workflow and productivity by miles. Hope you find it useful. Feel free to drop any questions or feedback.
